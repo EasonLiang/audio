@@ -1,4 +1,4 @@
-
+##=============================(01/02) audio-specific================================
 to run, just execute them one by one in this way :
 	cd elf_x86_linux ;
 	./elf_2.TwoTones
@@ -19,3 +19,7 @@ if it still complaint that _dl_printf or dl_fatal_printf issues , there are 4 wa
 		a system collapse , and what's more , it can't be recovered from a reboot . So before try this way , 
 		I suggest backup your original libc.so.6.xxx and prepare a linux livecd to rescue your system ;
 	(e) : try patchelf (ignore here , turn to your system administrator for help);
+##=============================(02/02) FFT-explore================================
+for purpose of FFT test, follow the steps , and so on :
+	cd FFT-Test ;
+	./elf_FFT-Test ;
